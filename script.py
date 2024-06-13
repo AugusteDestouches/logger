@@ -72,7 +72,7 @@ def on_view():
     for log in logs:
         result_text.insert(tk.END, str(log) + "\n")
 
-#ееее интерфеейс 
+#интерфеейс 
 
 root = tk.Tk()
 root.title("Apache Log Aggregator")
